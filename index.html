@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Launch</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+            rel="stylesheet" />
+
+    </head>
+    <body class=" min-h-screen text-white">
+
+        <!-- Navigation Bar -->
+        <nav class="bg-white text-gray-800 fixed top-0 w-full shadow-lg z-10">
+            <div
+                class="container mx-auto px-6 py-4 flex justify-between items-center">
+                <div class="text-2xl font-bold flex gap-4">
+                    <i class="ri-menu-2-line md:hidden"></i>
+                    <a href="#">Shopify</a>
+                </div>
+                <ul class="hidden md:flex gap-6 text-lg">
+                    <li><a href="#home"
+                            class="hover:text-indigo-500">Home</a></li>
+                    <li><a href="#collection"
+                            class="hover:text-indigo-500">Collection</a></li>
+                    <li><a href="#brands"
+                            class="hover:text-indigo-500">Brands</a></li>
+                    <li><a href="#contact"
+                            class="hover:text-indigo-500">Contact</a></li>
+                    <li><a href="#about"
+                            class="hover:text-indigo-500">About</a></li>
+                </ul>
+                <div class="flex gap-5 text-xl">
+                    <i class="ri-user-3-line"></i>
+                    <i class="ri-shopping-bag-line"></i>
+                    <i class="ri-search-line"></i>
+                </div>
+            </div>
+
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="text-center py-10 mt-16 bg-gray-900">
+            <h1 class="text-6xl font-extrabold mb-6">Launching Soon</h1>
+            <p class="text-2xl mb-8">Get ready for the most awaited product of
+                the year!</p>
+            <div class="countdown flex justify-center space-x-10 mb-12"
+                id="countdown">
+                <div class="flex flex-col items-center">
+                    <span id="days" class="text-4xl">01</span>
+                    <span>Days</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span id="hours" class="text-4xl">24</span>
+                    <span>Hours</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span id="minutes" class="text-4xl">59</span>
+                    <span>Minutes</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span id="seconds" class="text-4xl">10</span>
+                    <span>Seconds</span>
+                </div>
+            </div>
+            <a href="#plans"
+                class="bg-white text-indigo-600 py-3 px-8 rounded-full text-lg font-semibold hover:bg-gray-100 transition duration-300">
+                Pre-order Now
+            </a>
+        </section>
+
+        <!-- Product Section -->
+        <section id="plans" class="py-16">
+            <div class="md:flex md:flex-row md:gap-8 flex flex-col p-5 gap-10 items-center">
+                
+                <div
+                    class="relative bg-white text-gray-800 p-5 shadow-xl rounded-lg transform hover:scale-105 transition-transform duration-300">
+                    <div class="absolute top-1 left-1"><img src="offer.png" class="h-32 w-32 object-cover" alt=""></div>
+                    <img
+                        src="https://i.pinimg.com/236x/5c/f6/18/5cf6180733a55545edbb461cf5272058.jpg"
+                        alt="product-img "
+                        class="h-52 w-72 object-cover object-center">
+                    <h3 class="text-2xl font-bold mb-2 mt-2">Nike Shoes</h3>
+                    <p class="text-2xl mb-1">$79.99</p>
+                    <p class="mb-3 w-72">Perfect for starters looking to experience the product.</p>
+                    <div class="flex justify-between">
+                        <button class="bg-indigo-600 text-white py-2 px-6 rounded-full hover:bg-indigo-700 transition duration-300">
+                            Add to Cart
+                        </button>
+                        <button class="bg-green-600 text-white py-2 px-8 rounded-full hover:bg-green-700 transition duration-300">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+
+                <div
+                    class="relative text-gray-800 p-5 shadow-xl rounded-lg transform hover:scale-105 transition-transform duration-300">
+                    <div class="absolute top-1 left-1"><img src="offer.png" class="h-32 w-32 object-cover" alt=""></div>
+                    <img
+                        src="https://i.pinimg.com/736x/f6/45/f3/f645f3346e5313aecfa5fa96ebf14e42.jpg"
+                        alt="product-img "
+                        class="h-52 w-72 object-cover object-center">
+                    <h3 class="text-2xl font-bold mb-2 mt-2">Creative Mixer Grinder</h3>
+                    <p class="text-2xl mb-1">$49.99</p>
+                    <p class="mb-3 w-72">Perfect for starters looking to experience the product.</p>
+                    <div class="flex justify-between">
+                        <button class="bg-indigo-600 text-white py-2 px-6 rounded-full hover:bg-indigo-700 transition duration-300">
+                            Add to Cart
+                        </button>
+                        <button class="bg-green-600 text-white py-2 px-8 rounded-full hover:bg-green-700 transition duration-300">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+
+                <div
+                    class="relative bg-white text-gray-800 p-5 shadow-xl rounded-lg transform hover:scale-105 transition-transform duration-300">
+                    <div class="absolute top-1 left-1"><img src="offer.png" class="h-32 w-32 object-cover" alt=""></div>
+                    <img
+                        src="https://i.pinimg.com/736x/e8/80/18/e88018bca8e600cce1b257ddc0b2b31e.jpg"
+                        alt="product-img "
+                        class="h-52 w-72 object-cover object-center">
+                    <h3 class="text-2xl font-bold mb-2 mt-2">Gas Stove</h3>
+                    <p class="text-2xl mb-1">$199.99</p>
+                    <p class="mb-3 w-72">Perfect for starters looking to experience the product.</p>
+                    <div class="flex justify-between">
+                        <button class="bg-indigo-600 text-white py-2 px-6 rounded-full hover:bg-indigo-700 transition duration-300">
+                            Add to Cart
+                        </button>
+                        <button class="bg-green-600 text-white py-2 px-8 rounded-full hover:bg-green-700 transition duration-300">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+
+                <div
+                    class="relative text-gray-800 p-5 shadow-xl rounded-lg transform hover:scale-105 transition-transform duration-300">
+                    <div class="absolute top-1 left-1"><img src="offer.png" class="h-32 w-32 object-cover" alt=""></div>
+                    <img
+                        src="https://i.pinimg.com/736x/bc/fc/23/bcfc23769894da0f6bc6af9dd87a8e30.jpg"
+                        alt="product-img "
+                        class="h-52 w-72 object-cover object-center">
+                    <h3 class="text-2xl font-bold mb-2 mt-2">Music HeadPhon</h3>
+                    <p class="text-2xl mb-1">$99.99</p>
+                    <p class="mb-3 w-72">Perfect for starters looking to experience the product.</p>
+                    <div class="flex justify-between">
+                        <button class="bg-indigo-600 text-white py-2 px-6 rounded-full hover:bg-indigo-700 transition duration-300">
+                            Add to Cart
+                        </button>
+                        <button class="bg-green-600 text-white py-2 px-8 rounded-full hover:bg-green-700 transition duration-300">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 bg-gray-800 text-white text-center">
+            <h2 class="text-5xl font-bold mb-5">Contact Us</h2>
+            <p class="mb-8">Feel free to reach out for any inquiries or
+                support.</p>
+            <a href="mailto:info@product.com"
+                class="bg-white text-gray-800 py-2 px-8 rounded-full hover:bg-gray-100 transition duration-300">
+                Email Us
+            </a>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-gray-900 text-center py-8 text-white">
+            <p>&copy; 2024 Product Inc. All Rights Reserved.</p>
+        </footer>
+
+    </body>
+</html>
